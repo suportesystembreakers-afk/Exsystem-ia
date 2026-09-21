@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>SYSTEM BREAKERS IA</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="background"></div>
+
+    <header class="header">
+
+        <div class="logo">
+            <div class="logo-icon">⚡</div>
+
+            <div>
+                <h1>SYSTEM BREAKERS</h1>
+                <span>INTELLIGENCE</span>
+            </div>
+        </div>
+
+        <div class="status">
+            <span class="status-dot"></span>
+            ONLINE
+        </div>
+
+    </header>
+
+
+    <main class="container">
+
+        <section class="hero">
+
+            <div class="badge">
+                🤖 SYSTEM BREAKERS IA
+            </div>
+
+            <h2>
+                Sua inteligência artificial
+                <strong>para programação.</strong>
+            </h2>
+
+            <p>
+                Crie códigos, corrija erros, aprenda programação
+                e desenvolva seus projetos com assistência inteligente.
+            </p>
+
+        </section>
+
+
+        <section class="chat-card">
+
+            <div class="chat-header">
+
+                <div class="bot-avatar">
+                    🤖
+                </div>
+
+                <div>
+                    <h3>SYSTEM BREAKERS IA</h3>
+                    <span>Assistente de programação</span>
+                </div>
+
+            </div>
+
+
+            <div class="messages" id="messages">
+
+                <div class="message bot">
+
+                    <div class="avatar">
+                        🤖
+                    </div>
+
+                    <div class="bubble">
+                        Olá! 👋<br><br>
+
+                        Eu sou a <strong>SYSTEM BREAKERS IA</strong>.
+
+                        <br><br>
+
+                        Posso ajudar você com:
+                        <br>
+                        • Python<br>
+                        • JavaScript<br>
+                        • HTML<br>
+                        • CSS<br>
+                        • Termux<br>
+                        • Programação
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="quick-buttons">
+
+                <button onclick="quickMessage('Crie um código Python')">
+                    🐍 Python
+                </button>
+
+                <button onclick="quickMessage('Me ajude com JavaScript')">
+                    🟨 JavaScript
+                </button>
+
+                <button onclick="quickMessage('Explique HTML')">
+                    🌐 HTML
+                </button>
+
+                <button onclick="quickMessage('Corrija meu código')">
+                    🔧 Corrigir código
+                </button>
+
+            </div>
+
+
+            <div class="input-area">
+
+                <textarea
+                    id="messageInput"
+                    placeholder="Digite sua pergunta..."
+                    rows="1"></textarea>
+
+                <button
+                    class="send-button"
+                    onclick="sendMessage()">
+
+                    ➤
+
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <section class="features">
+
+            <div class="feature">
+                <span>🧠</span>
+                <h3>IA inteligente</h3>
+                <p>Assistência para seus projetos.</p>
+            </div>
+
+            <div class="feature">
+                <span>💻</span>
+                <h3>Programação</h3>
+                <p>Crie e aprenda código.</p>
+            </div>
+
+            <div class="feature">
+                <span>⚡</span>
+                <h3>Rápida</h3>
+                <p>Interface simples e moderna.</p>
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <p>
+            © 2026 SYSTEM BREAKERS IA
+        </p>
+
+        <span>
+            BREAK THE LIMITS. BUILD THE FUTURE.
+        </span>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
